@@ -1,18 +1,20 @@
 #include<stdio.h>
+
 void fun()
 {
     printf("GUD MRNG \n");
-    funn();
+    void call();
+    call();
 }
 
-void funn()
+void call()
 {
     printf("HI HOW ARE \n ");
 }
 
+
 void main()
 {
     fun();
-    
-   
+
 }
