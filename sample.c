@@ -1,8 +1,18 @@
 #include<stdio.h>
+void fun()
+{
+    printf("GUD MRNG \n");
+    funn();
+}
+
+void funn()
+{
+    printf("HI HOW ARE \n ");
+}
+
 void main()
 {
-    int a,b;
-    printf("enter the values");
-    scanf("%d%d",&a,&b);
-    printf("the numbers",a,b);
+    fun();
+    
+   
 }
